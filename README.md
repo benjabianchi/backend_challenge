@@ -35,9 +35,6 @@ This project implements a simple REST API to manage user transactions using Fast
 
 docker-compose up --build
 
-pgsql
-Copiar
-
 4. The API will be accessible at `http://localhost:8000/`.
 
 ## Example Usage
