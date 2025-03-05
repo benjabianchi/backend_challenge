@@ -41,7 +41,7 @@ docker-compose up --build
 
 ### Create a Transaction
 
-Send a POST request to `/transactions/` with the following JSON:
+Send a POST request to `http://localhost:8000/transactions/` with the following JSON:
 
 ```json
 {
@@ -52,7 +52,7 @@ Send a POST request to `/transactions/` with the following JSON:
 
 ###  Retrieve All Transactions
 
-Send a GET request to /transactions/.
+Send a GET request to `http://localhost:8000/transactions/`.
 
 Expected Response (HTTP 200):
 
